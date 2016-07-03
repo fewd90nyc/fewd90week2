@@ -11,44 +11,66 @@ body{
 }
 
 /*page1*/
-#page1 {
-  height: 700px;
-  background: url("images/header_bg.jpg") no-repeat center top;
+#page1{
+  width:900px;
+  height: 500px;
+  margin:0 auto;
+  background-image: url("../images/header_bg.jpg");
   background-size: cover;
-  color:#000;
+  color:white;
 }
 
-
-h1{
+#page1 h1{
 	/*400:normal; 700:bold*/
-	font-weight:2000;
+	display:inline-block;
+	width:200px;
+	margin:50px 800px 50px 100px;
+	font-weight:900;
 	font-size:24px;
 }
 
-h2{
+#page1 h2{
+	display:inline-block;
+	margin:40px 20px 50px 20px;
 	font-weight:600;
 	font-size:24px;
 }
 
-#now div{
-	font-weight:2000;
+#now{
+	display:block;
+	width:100px;
+	margin:0 auto;
+	background-color:yellow;
+
+	font-weight:900;
 	font-size:14px;
 	border-radius:5px;
+	color:#033048;
+	
+
 }
 
 /*page2*/
+#page2{
+	width:900px;
+    height: 400px;
+	background-color:white;
+}
 
-h3{
+#page2 h3{
+	display:inline-block;
+	width:200px;
+	margin:50px 800px 50px 100px;
 	font-weight:600;
 	font-size:20px;
 	color:#033048;
 }
 
-#page2{
-	background-color:#000;
-}
-
 #benefit{
+	margin-left:200px;
+	margin-right:300px;
+	text-align: left;
+
 	font-style:normal;
 	font-weight:300;
 	font-size:13px;
@@ -56,40 +78,72 @@ h3{
 
 /*page3*/
 #page3{
-	background:url("images/testimonial_bg.jpg") no-repeat center top;
+	background:url("../images/testimonial_bg.jpg") no-repeat center top;
+	color:white;
+	width:900px;
+    height: 200px;
+
+}
+
+#quote{
+	margin:0 auto;
+	padding:40px 100px;
+	width:400px;
 }
 
 #quote p{
 	font-style:normal;
 	font-size:18px;
 	font-style:italic;
-	font-weight:300;
+	font-weight:600;
 }
 
 #quote-by p{
-	font-style:normal;
-	font-weight:600;
+	font-weight:900;
 }
 
 /*page 4*/
 #page4{
 	background-color:#f9e42e;
+	width:900px;
+    height: 80px;
+    padding-top:50px;
 }
 
 #sign{
-	font-weight:2000;
+	display:block;
+	width:100px;
+	margin:0 auto;
+	color:white;
+	font-weight:900;
 	border-radius: 5px;
 	background-color:#033048;
 }
 
 #last{
-	display:inline-block;
 	background-color: #121212;
+}
+
+#last h1{
+	display: block;
+	margin: 0 auto;
+	color:yellow;
+	font-weight:900;
+	font-size:24px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#last img{
+	padding-left:20px;
+	padding-right:20px;
 }
 
 #copyright{
 	display:block;
-	color:#000;
+	margin:50px 100px;
+	padding-bottom: 20px;
+	color:white;
 	font-size:9px;
 	font-weight:600px;
 }
