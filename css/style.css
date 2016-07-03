@@ -4,8 +4,96 @@
   padding: 0;
 }
 
-header {
-  height: 700px;
-  background: url("../images/header_bg.jpg") no-repeat center top;
-  background-size: cover;
+body{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-style:bold;
 }
+
+/*page1*/
+#page1 {
+  height: 700px;
+  background: url("images/header_bg.jpg") no-repeat center top;
+  background-size: cover;
+  color:#000;
+}
+
+
+h1{
+	/*400:normal; 700:bold*/
+	font-weight:2000;
+	font-size:24px;
+}
+
+h2{
+	font-weight:600;
+	font-size:24px;
+}
+
+#now div{
+	font-weight:2000;
+	font-size:14px;
+	border-radius:5px;
+}
+
+/*page2*/
+
+h3{
+	font-weight:600;
+	font-size:20px;
+	color:#033048;
+}
+
+#page2{
+	background-color:#000;
+}
+
+#benefit{
+	font-style:normal;
+	font-weight:300;
+	font-size:13px;
+}
+
+/*page3*/
+#page3{
+	background:url("images/testimonial_bg.jpg") no-repeat center top;
+}
+
+#quote p{
+	font-style:normal;
+	font-size:18px;
+	font-style:italic;
+	font-weight:300;
+}
+
+#quote-by p{
+	font-style:normal;
+	font-weight:600;
+}
+
+/*page 4*/
+#page4{
+	background-color:#f9e42e;
+}
+
+#sign{
+	font-weight:2000;
+	border-radius: 5px;
+	background-color:#033048;
+}
+
+#last{
+	display:inline-block;
+	background-color: #121212;
+}
+
+#copyright{
+	display:block;
+	color:#000;
+	font-size:9px;
+	font-weight:600px;
+}
+
+
+
+
