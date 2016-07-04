@@ -5,138 +5,148 @@
 }
 
 body{
-	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	font-family: 'Open Sans',sans-serif;
+	font-style: bold;
+}
+
+h1{
+	display:inline-block;
+	font-size:24px;
+	font-style:bold;
+	font-weight:900;
+}
+
+h2{
+	display:inline-block;
+	font-weight:600;
 	font-style:bold;
 }
 
+a{
+	display:block;
+	text-decoration: none;
+	font-style:bold;
+	font-weight:900;
+	width:100px;
+	margin:0 auto;
+	border-radius:5px;
+	padding:10px 30px;
+}
+
+ul{
+	padding-left:40px;
+	padding-top:20px;
+}
+
+.page{
+	width:900px;
+	margin:0 auto;
+}
+
 /*page1*/
-#page1{
-  width:900px;
-  height: 500px;
-  margin:0 auto;
+#one{
   background-image: url("../images/header_bg.jpg");
   background-size: cover;
   color:white;
+  height: 500px;
 }
 
-#page1 h1{
-	/*400:normal; 700:bold*/
-	display:inline-block;
+#one h1{
 	width:200px;
-	margin:50px 800px 50px 100px;
-	font-weight:900;
-	font-size:24px;
+	margin:50px 800px 50px 80px;
 }
 
-#page1 h2{
-	display:inline-block;
+#one h2{
 	margin:40px 20px 50px 20px;
-	font-weight:600;
 	font-size:24px;
 }
 
-#now{
-	display:block;
-	width:100px;
-	margin:0 auto;
+#one a{
 	background-color:yellow;
-
-	font-weight:900;
 	font-size:14px;
-	border-radius:5px;
 	color:#033048;
-	
-
 }
+
 
 /*page2*/
-#page2{
-	width:900px;
+#two{
     height: 400px;
 	background-color:white;
 }
 
-#page2 h3{
-	display:inline-block;
-	width:200px;
-	margin:50px 800px 50px 100px;
-	font-weight:600;
+#two h2{
 	font-size:20px;
 	color:#033048;
+	width:200px;
+	margin:100px 800px 50px 80px;
 }
 
 #benefit{
-	margin-left:200px;
-	margin-right:300px;
 	text-align: left;
-
+	color:#606161;
 	font-style:normal;
-	font-weight:300;
 	font-size:13px;
+
+	margin-left:80px;
+	padding-left:65px;
+	padding-right:300px;
 }
 
 /*page3*/
-#page3{
+#three{
 	background:url("../images/testimonial_bg.jpg") no-repeat center top;
 	color:white;
-	width:900px;
-    height: 200px;
-
+    height:250px;
 }
 
 #quote{
+	font-size:18px;
+	font-style:italic;
+	font-weight:200;
 	margin:0 auto;
-	padding:40px 100px;
+	padding:60px 100px;
 	width:400px;
 }
 
-#quote p{
+#quote-by{
 	font-style:normal;
-	font-size:18px;
-	font-style:italic;
-	font-weight:600;
+	font-weight:900;
+	padding-top:10px;
 }
 
-#quote-by p{
-	font-weight:900;
-}
 
 /*page 4*/
-#page4{
+#four{
 	background-color:#f9e42e;
-	width:900px;
-    height: 80px;
-    padding-top:50px;
+    height: 70px;
+    padding-top:30px;
 }
 
-#sign{
-	display:block;
-	width:100px;
-	margin:0 auto;
-	color:white;
-	font-weight:900;
-	border-radius: 5px;
+#four a{
 	background-color:#033048;
+	color:white;
 }
 
-#last{
+
+
+/*page 5*/
+#five{
 	background-color: #121212;
 }
 
-#last h1{
-	display: block;
-	margin: 0 auto;
+#five h1{
+	display:block;
+	margin:0 auto;
 	color:yellow;
-	font-weight:900;
-	font-size:24px;
 	padding-top:50px;
 	padding-bottom:50px;
 }
 
-#last img{
-	padding-left:20px;
-	padding-right:20px;
+#five a{
+	display:inline-block;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 #copyright{
