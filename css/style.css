@@ -4,8 +4,150 @@
   padding: 0;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	width: 650px;
+	margin: 0 auto;
+}
+
+
+/* =======================
+ *        HEADER
+ * =======================
+ */
 header {
-  height: 700px;
+  height: 400px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
 }
+
+header h1 {
+	font-weight: 800;
+	font-size: 24px;
+	padding: 25px 75px;
+}
+
+#piece-of-mind {
+	font-weight: 600;
+	font-size: 24px;
+	width: 400px;
+	margin: 50px auto;
+}
+
+#get-it-now {
+	font-weight: 800;
+	font-size: 14px;
+	background-color: #f9e42e;
+	color: #121212;
+	width: 80px;
+	padding: 10px 30px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+
+
+/* =======================
+ *        BENEFITS
+ * =======================
+ */
+#benefits {
+	padding: 75px;
+	font-weight: 300;
+	font-size: 13px;
+	color: #606161;
+}
+
+#benefits h1{
+	color: #121212;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#benefits p {
+	padding: 20px 0;
+	width: 350px;
+}
+
+#benefits ul {
+	padding: 0 50px;
+}
+
+
+
+/* =======================
+ *        TESTIMONIAL
+ * =======================
+ */
+#testimonial {
+	background: url("../images/testimonial_bg.jpg") no-repeat center top;
+	background-size: cover;
+	font-size: 18px;
+}
+
+#testimonial section {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px 0;
+}
+
+#testimonial .quote {
+	font-weight: 300;
+	font-style: italic;
+}
+
+#testimonial .signature {
+	font-weight: 600;
+}
+
+
+
+/* =======================
+ *        SIGN-UP
+ * =======================
+ */
+#sign-up {
+	background-color: #f9e42e;
+	padding: 15px 0;
+}
+
+#sign-up p {
+	background-color: #033048;
+	font-weight: 800;
+	font-size: 12px;
+	width: 85px;
+	padding: 10px 25px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+
+
+/* =======================
+ *        FOOTER
+ * =======================
+ */
+footer {
+	background-color: #121212;
+	text-align: center;
+	padding: 30px 0;
+}
+
+footer h1 {
+	font-weight: 800;
+	font-size: 24px;
+	color: #f9e42e;
+}
+
+footer section img {
+	padding: 30px 10px;
+	height: 20px;
+}
+
+#copyright {
+	font-weight: 600;
+	font-size: 9px;
+}
+
