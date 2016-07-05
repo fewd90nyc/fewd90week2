@@ -9,3 +9,18 @@ header {
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
 }
+
+h1 {
+	margin: 0 auto;
+	padding: 0;
+	color: white;
+	font-weight: Extra bold, 24px
+}
+
+h2 {
+	font-weight: bold, 24px;
+	color: white;
+	
+
+
+}
