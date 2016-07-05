@@ -4,8 +4,65 @@
   padding: 0;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 header {
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+  text-align: center;
+}
+
+section {
+	padding: 16px 0;
+}
+
+.margin {
+	max-width: 980px;
+	margin: auto;
+	padding: 0 16px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	padding: 64px 0;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 20px;
+	padding: 
+}
+
+.logo {
+	font-weight: 800;
+	color: white;
+	text-align: left;
+	padding: 16px;
+}
+
+.button {
+	display: inline-block;
+	padding: 0;
+	margin: 0px auto;
+	background: #f9e42e;
+	text-align: center;
+	padding: 8px 32px;
+	border-radius: 5px;
+}
+
+#cta {
+	background: #f9e42e;
+}
+
+
+
+#benefits {
+	background: #f0efef;
+	color: #033048;
 }
