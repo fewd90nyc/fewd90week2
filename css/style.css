@@ -1,11 +1,151 @@
 /* Simple CSS Reset */
 * {
   margin: 0;
-  padding: 0;
+ 
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  height: 700px;
+  height: 600px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+
 }
+	
+h1{
+
+   width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+h2{
+	font-weight: 600;
+	padding-top:50px;
+	padding-bottom: 125px;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3{
+    size: 14px;
+    color:#033048;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: auto;
+	margin-right: auto;
+	background-color: #f9e42e
+
+}
+
+article{
+	background-color: #f0efef;
+	font-size: 20px;
+	font-weight: 300;
+	color: #606161;
+	height: 400px;
+	padding-left: 200px;
+	padding-right: 500px;
+	padding-top: 100px;
+	
+}
+
+h4{
+	font-size: 25px;
+	font-weight: 600;
+	color: #033048;
+	padding-bottom: 30px;
+}
+
+p{
+	padding-bottom: 30px;
+}
+
+
+section{
+  background: url("../images/testimonial_bg.jpg") no-repeat center top;
+  background-size: cover;
+  height: 250px;
+  text-align: center;
+  color: #f0efef;
+  padding-top: 50px;
+  padding-left: 350px;
+  padding-right: 350px;
+
+}
+
+#p1{
+	font-size: 25px;
+	font-style:italic;
+	font-weight: 300;
+}
+
+#p2{
+	font-size: 25px;
+	font-weight: 900;
+}
+
+aside{
+	background-color: #f9e42e;
+	height: 75px;
+	padding-top: 30px;
+
+}
+
+h5{
+	font-size: 14px;
+    color:#f0efef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+	background-color: #033048;
+	
+}
+
+footer{
+	background-color: #121212;
+	height: 300px;
+	padding: 50px;
+	text-align: center;
+
+}
+
+#logo
+{
+  font-size: 40px;
+  font-weight: 900;
+  color: #f9e42e;
+  padding-bottom: 100px;
+}
+
+img{
+	background-color: #121212;
+	display: inline-block;
+	padding-bottom: 100px;
+	padding-right: 20px;
+	padding-left: 20px;
+	
+}
+
+h6{
+font-size: 15px;
+  font-weight: 600;
+  color: #f0efef;
+  padding-bottom: 50px;
+}
+	
+   
