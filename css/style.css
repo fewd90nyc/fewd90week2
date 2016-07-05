@@ -2,10 +2,146 @@
 * {
   margin: 0;
   padding: 0;
+
 }
 
 header {
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+  height: 400px;
 }
+
+body{
+	font-family:'Open Sans', sans-serif;
+	width: 720px;
+	border-left: 75px solid #C9D3D6;
+	border-right: 75px solid #C9D3D6;
+	margin-right: 0;
+}
+
+.head{
+	font-weight: extra bold;
+	color: white;
+	padding-left: 50px;
+	padding-top: 25px;
+	font-size: 24px;
+}
+
+.int{
+	font-weight: 400 semibold;
+	font-size: 24px;
+	color: white;
+	padding: 85px;
+	font-size: 24px;
+}
+
+#benefit{
+	background-color: white;
+	padding: 25px 100px 25px 50px;
+
+}
+
+.ftw{
+	width: 375px;
+	font-size: 13px;
+	font-weight: light;
+}
+
+#quote{
+	background-image: url("../images/testimonial_bg.jpg");
+	color: white;
+	text-align: center;
+
+}
+
+.button{
+	background-color: #f9e42e;
+	margin: 0 auto 0 auto;
+	width: 125px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 15px 5px 15px;
+	font-size: 14px;
+	font-weight: extra bold;
+}
+
+h2{
+	padding-top: 25px;
+	padding-bottom: 15px;
+	font-weight: 400 semibold;
+	font-size: 20px;
+
+}
+
+ul{
+	padding: 20px 0px 30px 25px;
+	margin-left: 20px;
+	font-size: 13px;
+	font-weight: light;
+
+
+}
+
+#sign{
+	background-color: #f9e42e;
+	height: 60px;
+	padding-top: 25px;
+
+
+}
+
+.ama{
+	padding: 25px 100px 0px 100px;
+	width: 315px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 400 semibold;
+
+}
+
+img{
+	padding: 10px 10px 35px 10px;
+}
+
+h4{
+	background-color: #033048;
+	margin: 0 auto 0 auto;
+	border-radius: 5px;
+	color: white;
+	width: 150px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+	font-weight: extra bold;
+
+}
+
+footer{
+	background-color: black;
+	height: 200px;
+	text-align: center;
+}
+
+.end{
+	color: #f9e42e;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 24px;
+	font-weight: extra bold;
+
+}
+
+h5{
+	color: white;
+	font-size: 9px;
+	font-weight: semibold;
+}
+
+.lol{
+	padding-bottom: 30px;
+}
+
