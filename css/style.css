@@ -4,8 +4,122 @@
   padding: 0;
 }
 
+body {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
 header {
-  height: 700px;
+  height: 500px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+  color:white;
 }
+
+h1 {
+  font-weight:800;
+  font-size: 36px;
+  text-align: left;
+  padding-left: 100px;
+  padding-top:20px;
+}
+
+h2 {
+	font-weight:600;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+#benefits {
+	width:500px;
+	text-align: left;
+	margin: 70px auto 50px auto;
+	font-size:20px;
+}
+
+ul {
+	font-weight:300;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+#button {
+	    border-radius: 5px;
+	    background-color: #f9e42e;
+	    color: #033048;
+	    font-weight:800;
+	    font-size: 24px;
+	    width:200px;
+	    padding: 10px 25px;
+	    margin-right: auto;
+	    margin-left: auto;
+	    text-align: center;
+}
+
+#button2 {
+	    border-radius: 5px;
+	    background-color: #033048;
+	    color: white;
+	    font-weight:800;
+	    font-size: 24px;
+	    width:200px;
+	    padding: 10px 30px;
+	    margin: 20px auto; 
+
+}
+
+.quote {
+	background: url("../images/testimonial_bg.jpg"); no-repeat center top;
+	color:white;
+	font-weight:300;
+	font-style:Italic;
+	font-size:24px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+#quote {
+	width:400px;
+	margin:0 auto 0 auto;
+
+}
+
+#author {
+	font-weight:600;
+	font-style:normal;
+}
+
+.intro {
+	font-weight:600;
+	font-size: 28px;
+	text-align: center;
+	width:auto;
+	margin:100px auto 75px auto;
+}
+
+#copyright {
+	font-size:12px; 
+	font-weight:600;
+
+}
+
+img {
+	padding:50px 15px;
+}
+
+#bottom {
+    color:#f9e42e;
+    font-weight:800;
+    font-size: 36px;
+    padding-top: 50px;
+}
+
+footer {
+	background-color: #121212;
+	color:white;
+	padding-bottom: 20px;
+}
+
+
+
