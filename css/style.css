@@ -4,8 +4,160 @@
   padding: 0;
 }
 
-header {
-  height: 700px;
-  background: url("../images/header_bg.jpg") no-repeat center top;
-  background-size: cover;
+body{
+	text-align: center;
+	font-family: 'Open Sans',sans-serif;
+	font-style: bold;
 }
+
+h1{
+	display:inline-block;
+	font-size:24px;
+	font-style:bold;
+	font-weight:900;
+}
+
+h2{
+	display:inline-block;
+	font-weight:600;
+	font-style:bold;
+}
+
+a{
+	display:block;
+	text-decoration: none;
+	font-style:bold;
+	font-weight:900;
+	width:100px;
+	margin:0 auto;
+	border-radius:5px;
+	padding:10px 30px;
+}
+
+ul{
+	padding-left:40px;
+	padding-top:20px;
+}
+
+.page{
+	width:900px;
+	margin:0 auto;
+}
+
+/*page1*/
+#one{
+  background-image: url("../images/header_bg.jpg");
+  background-size: cover;
+  color:white;
+  height: 500px;
+}
+
+#one h1{
+	width:200px;
+	margin:50px 800px 50px 80px;
+}
+
+#one h2{
+	margin:40px 20px 50px 20px;
+	font-size:24px;
+}
+
+#one a{
+	background-color:yellow;
+	font-size:14px;
+	color:#033048;
+}
+
+
+/*page2*/
+#two{
+    height: 400px;
+	background-color:white;
+}
+
+#two h2{
+	font-size:20px;
+	color:#033048;
+	width:200px;
+	margin:100px 800px 50px 80px;
+}
+
+#benefit{
+	text-align: left;
+	color:#606161;
+	font-style:normal;
+	font-size:13px;
+
+	margin-left:80px;
+	padding-left:65px;
+	padding-right:300px;
+}
+
+/*page3*/
+#three{
+	background:url("../images/testimonial_bg.jpg") no-repeat center top;
+	color:white;
+    height:250px;
+}
+
+#quote{
+	font-size:18px;
+	font-style:italic;
+	font-weight:200;
+	margin:0 auto;
+	padding:60px 100px;
+	width:400px;
+}
+
+#quote-by{
+	font-style:normal;
+	font-weight:900;
+	padding-top:10px;
+}
+
+
+/*page 4*/
+#four{
+	background-color:#f9e42e;
+    height: 70px;
+    padding-top:30px;
+}
+
+#four a{
+	background-color:#033048;
+	color:white;
+}
+
+
+
+/*page 5*/
+#five{
+	background-color: #121212;
+}
+
+#five h1{
+	display:block;
+	margin:0 auto;
+	color:yellow;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#five a{
+	display:inline-block;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#copyright{
+	display:block;
+	margin:50px 100px;
+	padding-bottom: 20px;
+	color:white;
+	font-size:9px;
+	font-weight:600px;
+}
+
+
+
+
