@@ -5,7 +5,84 @@
 }
 
 header {
-  height: 700px;
+  height: 500px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 500px;
+}
+
+article {
+  height: 1500px;
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+	font-family: 'Open+Sans', sans-serif;
+}
+
+article h1, article h2, article p, article ul, article h4 {
+    padding: 10px 58px;
+    background-color: #f0efef;
+}
+
+#spaz {
+	height: 200px;
+	 background: url("../images/testimonial_bg.jpg") no-repeat center top;
+	text-align: center;
+	color: #000;
+}
+
+h1 {
+font-size: 24px;
+font-weight: 800;
+color: #fff;
+padding: 30px 50px;
+}
+
+h2 {
+font-size: 24px;
+font-weight: 600;
+color: #fff;
+text-align: center;
+
+}
+
+h3{
+	font-size: 14px;
+	font-weight: 800;
+	color: #fff;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 800;
+    color: #033048;
+    text-align: center;
+    padding: 14px 41px;
+    background-color: #f9e42e;
+    margin: 78px 288px;
+    border: none;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #033048;
+}
+
+p {
+	font-size: 13px;
+	font-weight: 300;
+	color: #606161;
+}
+
+li {
+	font-size: 13px;
+	font-weight: 300;
+	color: #606161;
 }
