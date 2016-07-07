@@ -2,10 +2,136 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans';
+  font-weight: light;
+  font-weight: 300;
+  font-size: 2vw;
+}
+
+body {
+	background: #f0efef;
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
 }
 
 header {
-  height: 700px;
+  height:51vw;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+}
+
+#brand-name {
+	color:white;
+	font-weight:800;
+	font-size: 3.5vw;
+	text-align: left;
+	padding-top: 3vw;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 3.5vw;
+	color: white;
+	padding-top: 12vw;
+	padding-bottom: 7vw;
+}
+
+.button {
+	text-align: center;
+	font-weight: 800;
+	font-size: 2vw;
+	width:20vw;
+	padding: 1vw 0;
+	background-color: #f9e42e;
+	display:block;
+	margin:0 auto;
+	border-radius: .6vw;
+}
+
+#benefits {
+	padding: 10vw 0;
+}
+
+#benefits p {
+	padding:2vw 0 2vw 0;
+	width:45vw;
+}
+
+#benefits ul {
+	padding: 0vw 0vw 0vw 6vw;
+	width:45vw;
+}
+
+.mid-section {
+	background: url("../images/testimonial_bg.jpg") no-repeat center top;
+	background-size: cover;
+	height:30vw;
+}
+
+.block-quote {
+	font-style: italic;
+	width:48%;
+	margin:0 auto;
+	color:white;
+	font-size: 3vw;
+	padding-top: 5vw;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 600;
+	color:#121212;
+	font-size: 3vw;
+	text-align: left;
+}
+
+/*THIS FEELS REDUNDANT:I  use h3 for the block-quote – is there a more efficient way of doing this?*/
+h3 {
+	font-weight: 600;
+	color:white;
+	font-size: 3vw;
+	text-align: center;
+}
+
+#cta {
+	background: #f9e42e;
+	padding: 2vw 0;
+}
+
+#blue {
+	background: #033048;
+	color: #fff;
+}
+
+#yellow {
+	color: #033048;
+	background: #f9e42e;
+}
+
+#logo {
+	color:#f9e42e;
+	font-weight: 600;
+	font-size: 3.5vw;
+	padding: 5vw 0;
+}
+
+footer {
+	background:#121212;
+	text-align: center;
+}
+
+footer p {
+	color:white;
+	padding: 4vw 0;
+	/*font-weight: SEMI BOLD!!!*/
+	font-size: 1.2vw;
+}
+
+footer img {
+	padding: 0 1.8vw;
+	height:3vw;
 }
