@@ -5,7 +5,7 @@
 }
 
 header {
-  height: 500px;
+  height: 350px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
   width: 740px;
@@ -15,10 +15,12 @@ header {
 }
 
 article {
-  height: 1500px;
+  height: 200px;
   width: 740px;
+  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #f0efef;
 }
 
 body {
@@ -26,15 +28,55 @@ body {
 }
 
 article h1, article h2, article p, article ul, article h4 {
-    padding: 10px 58px;
+    padding: 10px 60px;
     background-color: #f0efef;
 }
 
 #spaz {
 	height: 200px;
+  width: 740px;
+  margin: auto;
 	 background: url("../images/testimonial_bg.jpg") no-repeat center top;
 	text-align: center;
-	color: #000;
+	color: #fff;
+}
+
+#spaz p {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  color: #fff;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top:  40px;
+}
+
+#spaz h4  {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 5px;
+}
+
+#greatness {
+  width: 740px;
+  height: 75px;
+  margin: auto;
+  background-color: #ffe616;
+  text-align: center;
+  padding-top: 12px;
+}
+
+#greatness h3 {
+  font-size: 12px;
+  font-weight: 800;
+  color: #fff;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  background-color: #004a80;
+  padding-top: 20px;
+
 }
 
 h1 {
@@ -85,4 +127,25 @@ li {
 	font-size: 13px;
 	font-weight: 300;
 	color: #606161;
+}
+
+#money h1{
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffe616;
+  padding-top: 30px;
+}
+footer {
+  width: 740px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  background-color: #000;
+}
+
+footer h4 {
+  font-size: 9px;
+  font-weight: 800;
+  color: #fff;
+  padding-top: 30px;
 }
