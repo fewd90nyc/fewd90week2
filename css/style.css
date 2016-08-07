@@ -5,7 +5,138 @@
 }
 
 header {
-  height: 700px;
+  height: 500px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 800;
+	font-size: 50px;
+	color: #fff;
+	padding-top: 30px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 44px;
+	text-align: center;
+	color: #fff;
+	margin: 80px auto 80px auto;
+}
+
+h3 {
+	font-size: 30px;
+	padding-bottom: 20px;
+	font-weight: 300;
+}
+
+h4 {
+	font-weight: 100;
+	color: #606161;
+	font-size: 16px;
+}
+
+h5 {
+	color: #fff;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 38px;
+	text-align: center;
+}
+
+h6 {
+	font-size: 25px;
+	color: #f9e42e;
+}
+
+p, ul {
+	font-weight: 100;
+	font-size: 16px;
+	color: #606161;
+	padding: 5px 0;
+}
+
+ul {
+	padding-left: 10px;
+}
+
+
+button {
+	display: block;
+	padding: 0;
+	margin: 0;
+	border-radius: 5px;
+	background-color: #f9e42e;
+	font-weight: 800;
+	font-size: 24px;
+	color: #033048;
+	border: none;
+	width: 400px;
+	height: 70px;
+	margin: 20px auto 0 auto;
+}
+
+footer, footer a {
+	background: #121212;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	padding: 30px 0;
+}
+
+footer img {
+	height: 25px;
+	padding: 20px;
+}
+
+footer p {
+	font-size: 9px;
+	color: #fff;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.content {
+	padding: 50px 200px;
+	background-color: #f0efef;
+}
+
+.photospot {
+	height: 400px;
+	background: url("../images/testimonial_bg.jpg") no-repeat center top;
+	background-size: cover;
+}
+
+.photospot h5 {
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.name {
+	font-weight: 600;
+	font-style: normal;
+}
+
+.signuparea {
+	background: #f9e42e;
+	padding: 30px;
+
+}
+
+.signup {
+	background-color: #033048;
+	color: #fff;
+	padding: 30px;
+	font-size: 18px;
 }
